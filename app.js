@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-	res.send('Welcome to Github Actions');
+	res.send('I love github actions. You should too.');
 });
 
 app.listen('3000', () => {
